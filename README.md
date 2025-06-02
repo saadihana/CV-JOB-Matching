@@ -2,9 +2,8 @@
 
 A smart tool for matching CVs with job opportunities.
 
-![Project Banner](https://via.placeholder.com/800x300?text=CV-JOB+Matching+FilterHub) <!-- Replace with your actual banner -->
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8+
