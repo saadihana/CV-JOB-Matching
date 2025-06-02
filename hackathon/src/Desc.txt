@@ -1,0 +1,76 @@
+Missions
+Dirige et coordonne les équipes de développement pour conduire différents projets de développement logiciel.
+Assure une coordination entre les différents projets de développement pour une meilleure gestion de ressources.
+Assiste les développeurs dans les choix technologiques les plus appropriées à la solution applicative et qui répond aux normes et cadre de l’architecture SI.
+Assure que l’équipe développement dispose de tous les prérequis pour le développement des solutions.
+Contribue à la définition des spécifications e générales auprès du chef de projet fonctionnel et /ou L’analyste fonctionnel.
+Réalise l’analyse technique et l’étude détaillée.
+En charge de la maintenance corrective et évolutive demandée.
+Assure le respect des critères d’accessibilité et la charte visuelle des solutions logicielles entreprise.
+Assure du processus release enginneering, notamment le travail nécessaire pour développer et déployer du code applicatif.
+Assure de la montée en compétences du pool de développement à travers des cursus de formation et coaching personnalisé.
+Réalise le prototypage en coordination avec le responsable projet.
+Réalise les modules (objets et composants logiciels).
+Assemble les composants logiciels.
+Rédige les documentations.
+Elabore et effectuer les jeux tests unitaires et d’intégration.
+Identifie et traite les dysfonctionnements le cas échéant en lien avec les tests.
+
+Profil
+Diplôme Études Universitaires (Ingénieur d’état /Master) en Informatique, Télécommunications, Électronique.
+Experience : Cinq (05) ans dans le domaine développement logiciel.
+Formation Complémentaire : Méthodes Agile, Nouveaux concepts de développement logiciel (CI/CD, Devops .).
+Region: Alger
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+look homie, i am in charge of doing a cv job matcher project , in which i will be finding the best proposed cv that matches the job offer , the job offers are given from mobilis they are composed of two sections mission et profil , in profil section they mainly mention the required years f experience and education needed for that job and also some times the required
+ skills or softwares that need to be mastered , now in my site i want the user to be able to enter a job adescription and from that job description you will be able to extract al the folowing sections : education , years of required experience and skills bear in mind  that they are not written explecitely so you have to use a model that works offline and that is smart 
+ enough to detect it , on the other hand the user need to be able to enter many cvs in different formats like in pdf or docs and you are going to extract information from it , about the same things skills education experience and region , for the region i want you to look for the region mentioned in the job offer and check if it is in the cv then you will display region
+  checked or verified or you just type mismatch , for the experience you have to be able to extract dates from cvs bear in mind that cvs must contain many designs so you have to smart fetching information from them and calculating the total number of of experience year and comparing it wwith the required one then if less tell non sufficinet if equal or more classify as 
+  approved for the skills you have to use a model for similarity that performs best but again offline (whole project miust run offline) and for education also check similary but sometimes its clear they need masters in somethinf or doctorah or.. make sure the 
+model has multlingual support because the job offer and cv may be in different languages and by multilingual i mean frensh and english , then calculate the overall similarity of the cv and rank the accepted ones from highest to lower similarity and also if any
+ one of the cvs didnt meet the job offer in any of the region , education , skills or experience display this detail with the section score , know i will give you a cv and job descriptions to understand mora what i am saying your missing is to iplement a fully functional frontend and backend for this project 

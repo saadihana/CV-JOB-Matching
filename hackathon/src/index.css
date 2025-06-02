@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Futura';
+    src: url('/path/to/fonts/futura-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  h1,h4 {
+    font-family: 'Futura', sans-serif;
+  }
+
+
+
+.blob{
+    /* background: radial-gradient(circle, 
+                              #FFC78A 0%, 
+                              #F87306 32%, 
+                              #3C096C 96%); */
+    background: conic-gradient( #3C096C, #3C096C , #3C096C );
+  
+    animation: spin 6s linear infinite;
+  }
+
+.blob-mini{
+    background: radial-gradient(circle, 
+                          #FFC78A 0%, 
+                          #F87306 32%, 
+                          #3C096C 96%);
+}
+@keyframes spin{
+  0%{
+      transform: rotate(0deg) scale(2) ;
+  }100%{
+    transform: rotate(1turn) scale(2);
+  }
+}
+
+.bgs{
+  animation: spinBg 4s infinite;
+}
+
+
+
+.gradient-text {
+ background: linear-gradient(to right, #4B1485, #D6ABFE);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
