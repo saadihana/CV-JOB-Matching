@@ -1,32 +1,39 @@
-# CV-JOB-Matching(FilterHub)
+# CV-JOB Matching (FilterHub)
 
-## Project Setup Guide
+A smart tool for matching CVs with job opportunities.
+
+![Project Banner](https://via.placeholder.com/800x300?text=CV-JOB+Matching+FilterHub) <!-- Replace with your actual banner -->
+
+## 🚀 Quick Start
 
 ### Prerequisites
-Before running the project, ensure you have the following installed on your system:
-- Python (Latest stable version recommended)
-- Node.js & npm (Latest stable version recommended)
+- Python 3.8+
+- Node.js 16+
+- npm 8+
 
----
+### Installation
 
-### Backend Setup
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/cv-job-matching.git
+   cd cv-job-matching
 
-1. **Create and activate a virtual environment** (recommended):
+2. **Set up backend**
 
-```bash
-python3 -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-```
-2. **Install required Python packages**:
-``` pip install -r requirements.txt ```
-3. **Navigate to the backend directory and Run the backend server:**:
-``` cd backend ```
-```python main.py ```
+# Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# venv\Scripts\activate   # Windows
 
-5. **Navigate to the frontend directory and Run**:
-   ``` cd hackathon ```
-   ``` npm install ```
-   ``` npm run dev ```
-          # or
-   ``` npm start ```
+# Install dependencies
+pip install -r requirements.txt
 
+# Run backend
+cd backend
+python main.py
+
+
+3. **Set up Frontend**
+   cd ../hackathon
+npm install    # Install all frontend dependencies
+npm run dev    # Start development server
