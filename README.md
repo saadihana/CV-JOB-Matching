@@ -88,14 +88,15 @@ Database: PostgreSQL with Redis cache
 
 <a id="api-reference"></a>
 
-API Reference
-Endpoint	Method	Description
+## API Reference
+### Endpoint	Method	Description
 /api/match	POST	Submit CV+job for analysis
 /api/results/{id}	GET	Retrieve matching results
 /api/analyze	POST	Job description parsing
+
 <a id="development-team"></a>
 
-Development Team
+## Development Team
 SAADI Hana 
 
 DELENDA Insaf 
