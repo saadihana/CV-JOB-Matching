@@ -126,4 +126,4 @@ npm run dev
 <a id="license"></a>
 ## License
 
-This project is currently not under a specific license. A formal open-source license (e.g., MIT) may be added in future versions.
+This project is currently not under a specific license. A formal open-source license may be added in future versions.
