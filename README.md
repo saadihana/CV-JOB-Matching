@@ -77,7 +77,9 @@ cd CV-JOB-Matching
 
 # Backend setup
 python -m venv venv
+# Activate virtual environment
 source venv/bin/activate  # For Linux/Mac
+venv\Scripts\activate    # For Windows
 pip install -r requirements.txt
 
 # Frontend setup
