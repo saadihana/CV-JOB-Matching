@@ -1,87 +1,107 @@
-# CV-JOB Matching System 🔍
+# CV-JOB Matching System
 
-![Project Banner](https://via.placeholder.com/1200x400?text=CV+Job+Matching+AI+Solution) <!-- Replace with actual banner -->
-
-An intelligent AI-powered platform that revolutionizes recruitment by automatically matching candidate CVs with suitable job opportunities using advanced NLP techniques.
+[![GitHub Stars](https://img.shields.io/github/stars/saadihana/CV-JOB-Matching?style=flat-square)](https://github.com/saadihana/CV-JOB-Matching/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
-1. [Key Features](#key-features)
-2. [Technology Stack](#technology-stack)
-3. [Installation Guide](#installation-guide)
-4. [System Architecture](#system-architecture)
-5. [API Documentation](#api-documentation)
-6. [Development Team](#development-team)
-7. [License](#license)
+1. [Project Description](#project-description)
+2. [Core Features](#core-features)
+3. [Technical Implementation](#technical-implementation)
+4. [Getting Started](#getting-started)
+5. [System Components](#system-components)
+6. [API Reference](#api-reference)
+7. [Development Team](#development-team)
+8. [License Information](#license-information)
 
 ---
 
-## Key Features
+<a id="project-description"></a>
+## Project Description
+An AI-powered platform that automatically matches candidate CVs with relevant job opportunities using natural language processing.
 
-### 🎯 Core Matching Engine
-- **CV Parsing** - Extract skills, experience, and education from resumes (PDF/DOCX)
-- **Job Analysis** - Intelligent parsing of job descriptions
-- **AI Matching** - Semantic similarity scoring using transformer models
-
-### 📊 Dashboard Features
-- Match percentage visualization
-- Side-by-side CV/job comparison
-- Candidate ranking system
-
-### ⚙️ Admin Tools
-- Custom matching criteria configuration
-- Bias detection in job descriptions
-- Bulk processing capabilities
+The system:
+- Parses resume content (PDF/DOCX formats)
+- Analyzes job description requirements
+- Calculates compatibility scores
+- Provides ranked matching results
 
 ---
 
-## Technology Stack
+<a id="core-features"></a>
+## Core Features
+
+### Document Processing
+- Multi-format CV parsing (PDF, DOCX, plain text)
+- Job description requirement extraction
+
+### Matching Engine
+- Semantic matching using transformer models
+- Explainable scoring system
+- Customizable matching criteria
+
+---
+
+<a id="technical-implementation"></a>
+## Technical Implementation
 
 ### Frontend
-| Technology | Purpose |
-|------------|---------|
-| React 18 | Core framework |
-| Next.js 13 | SSR & Routing |
-| Tailwind CSS | Styling |
-| Chart.js | Data visualization |
+- React.js with TypeScript
+- Next.js framework
+- Tailwind CSS
+- Chart.js visualizations
 
 ### Backend
-| Technology | Purpose |
-|------------|---------|
-| Python 3.10 | Core language |
-| FastAPI | REST API framework |
-| spaCy | NLP processing |
-| Sentence-Transformers | Semantic matching |
-
-### Infrastructure
-| Component | Technology |
-|-----------|-----------|
-| Database | PostgreSQL |
-| Deployment | Docker |
-| CI/CD | GitHub Actions |
+- Python 3.10
+- FastAPI framework
+- spaCy NLP processing
+- Sentence-Transformers
 
 ---
 
-## Installation Guide
+<a id="getting-started"></a>
+## Getting Started
 
-### Prerequisites
+### Requirements
 - Python 3.10+
 - Node.js 16+
 - PostgreSQL 14+
 
-### Setup Instructions
-
+### Installation
 ```bash
-# Clone repository
-git clone https://github.com/yourusername/cv-job-matching.git
-cd cv-job-matching
-
-# Backend setup
+git clone https://github.com/saadihana/CV-JOB-Matching.git
+cd CV-JOB-Matching
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
-# venv\Scripts\activate  # Windows
-
-pip install -r backend/requirements.txt
-
-# Frontend setup
+pip install -r requirements.txt
 cd frontend
 npm install
+npm run dev
+
+<a id="system-components"></a>
+
+System Components
+Frontend: Next.js application
+
+API Layer: FastAPI endpoints
+
+Matching Service: Python engine
+
+Database: PostgreSQL with Redis cache
+
+<a id="api-reference"></a>
+
+API Reference
+Endpoint	Method	Description
+/api/match	POST	Submit CV+job for analysis
+/api/results/{id}	GET	Retrieve matching results
+/api/analyze	POST	Job description parsing
+<a id="development-team"></a>
+
+Development Team
+SAADI Hana 
+
+DELENDA Insaf 
+
+BOUAZZOUNI Mohamed Amine 
+
+LATRECHE Dhikra Maram
