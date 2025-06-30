@@ -1,8 +1,5 @@
 # CV-JOB Matching System
 
-[![GitHub Stars](https://img.shields.io/github/stars/saadihana/CV-JOB-Matching?style=flat-square)](https://github.com/saadihana/CV-JOB-Matching/stargazers)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
 ## Table of Contents
 1. [Project Description](#project-description)
 2. [Core Features](#core-features)
@@ -87,6 +84,7 @@ API Layer: FastAPI endpoints
 Matching Service: Python engine
 
 Database: PostgreSQL with Redis cache
+```
 
 <a id="api-reference"></a>
 
